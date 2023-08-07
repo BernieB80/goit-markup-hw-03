@@ -20,36 +20,38 @@
   <body>
     <!-- Header -->
     <header class="page-header">
-      <div class="container header-container">
+      <div class="container menu">
         <!-- Navigation Bar -->
-        <nav class="header-navigation">
+        <nav class="navigation">
           <a href="./index.html" class="logo-link">
             <span class="logo">WEB</span>
             <span class="studio">STUDIO</span>
           </a>
 
           <ul class="nav-menu list">
-            <li class="nav-link">
-              <a href="./index.html" class="page current">Studio</a>
+            <li class="item">
+              <a href="./index.html" class="page current link">Studio</a>
             </li>
-            <li class="nav-link">
-              <a href="./portfolio.html" class="page">Portfolio</a>
+            <li class="item">
+              <a href="./portfolio.html" class="page link">Portfolio</a>
             </li>
-            <li class="nav-link">
-              <a href="#" class="page">Contacts</a>
+            <li class="item">
+              <a href="#" class="page link">Contacts</a>
             </li>
           </ul>
         </nav>
 
         <!-- Contacts Menu -->
         <ul class="contacts-menu list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact"
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
+          <li class="item">
+            <a href="tel:+110001111111" class="contact link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </div>
@@ -59,7 +61,7 @@
     <main>
       <!-- Hero Section -->
       <section class="hero bg-hero">
-        <div class="container hero-container">
+        <div class="container">
           <h1 class="hero-title">
             Effective Solutions<br />
             for Your Business
@@ -70,10 +72,10 @@
       </section>
 
       <!-- Benefits Section -->
-      <section class="section benefits-section">
-        <div class="container benefits-container">
+      <section class="section">
+        <div class="container">
           <ul class="benefits list">
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business<br />
@@ -81,7 +83,7 @@
                 perfect and creative solution.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the<br />
@@ -89,7 +91,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that<br />
@@ -97,7 +99,7 @@
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital<br />
@@ -110,11 +112,11 @@
       </section>
 
       <!-- What Are We Doing Section -->
-      <section class="section wawd-section">
-        <div class="container wawd-container">
+      <section class="section no-top-padding">
+        <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
-          <ul class="what-are-we-doing list">
-            <li class="wawd-item">
+          <ul class="what-we-do list">
+            <li class="item">
               <img
                 src="images/monitor.jpg"
                 alt="monitor"
@@ -122,7 +124,7 @@
                 height="300"
               />
             </li>
-            <li class="wawd-item">
+            <li class="item">
               <img
                 src="images/phonescreen.jpg"
                 alt="phonescreen"
@@ -130,7 +132,7 @@
                 height="300"
               />
             </li>
-            <li class="wawd-item">
+            <li class="item">
               <img
                 src="images/mobile&laptop.jpg"
                 alt="mobile & laptop"
@@ -144,56 +146,48 @@
 
       <!-- Team Section -->
       <section class="section bg-team">
-        <div class="container team-container">
+        <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li class="team-card">
+            <li class="item">
               <img
                 src="images/mark-guerrero.jpg"
                 alt="male product designer"
                 width="270"
                 height="260"
               />
-              <div class="team-info">
-                <h3 class="name">Mark Guerrero</h3>
-                <p class="position">Product Designer</p>
-              </div>
+              <h3 class="name">Mark Guerrero</h3>
+              <p class="position">Product Designer</p>
             </li>
-            <li class="team-card">
+            <li class="item">
               <img
                 src="images/tom-ford.jpg"
                 alt="male frontend developer"
                 width="270"
                 height="260"
               />
-              <div class="team-info">
-                <h3 class="name">Tom Ford</h3>
-                <p class="position">Frontend Developer</p>
-              </div>
+              <h3 class="name">Tom Ford</h3>
+              <p class="position">Frontend Developer</p>
             </li>
-            <li class="team-card">
+            <li class="item">
               <img
                 src="images/camila-garcia.jpg"
                 alt="female marketing officer"
                 width="270"
                 height="260"
               />
-              <div class="team-info">
-                <h3 class="name">Camila Garcia</h3>
-                <p class="position">Marketing</p>
-              </div>
+              <h3 class="name">Camila Garcia</h3>
+              <p class="position">Marketing</p>
             </li>
-            <li class="team-card">
+            <li class="item">
               <img
                 src="images/daniel-wilson.jpg"
                 alt="male UI designer"
                 width="270"
                 height="260"
               />
-              <div class="team-info">
-                <h3 class="name">Daniel Wilson</h3>
-                <p class="position">UI Designer</p>
-              </div>
+              <h3 class="name">Daniel Wilson</h3>
+              <p class="position">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -202,18 +196,16 @@
 
     <!-- Footer -->
     <footer class="page-footer bg-footer">
-      <div class="container footer-container">
+      <div class="container">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span>
           <span class="studio-footer">STUDIO</span>
         </a>
-        <div class="footer-text">
-          <p class="footer-description">
-            Increase the flow of customers and<br />
-            sales for your business with digital<br />
-            marketing & growth solutions.
-          </p>
-        </div>
+        <p class="footer-description">
+          Increase the flow of customers and<br />
+          sales for your business with digital<br />
+          marketing & growth solutions.
+        </p>
       </div>
     </footer>
   </body>
